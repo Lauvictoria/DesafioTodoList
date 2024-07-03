@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>TodoList</title>
+</head>
+<body>
+    <div class="container">
+        <div class="titulo">
+            <h1>Estado de Tareas</h1>
+        </div>
+
+        <section class="container-p">
+            <p class="parrafo-nv">Nueva Tarea</p>
+            <div class="container-input">
+                <input class="input-nt" id="input" type="text">
+                <button class="btn-agregar" id="btn1">Agregar</button>
+            </div>
+        </section>
+
+        <div class="presumen">
+            <p>Total: <span id="totalTareas">0</span></p>
+            <p>Realizadas: <span id="completedTareas">0</span></p>
+        </div>
+
+        <div class="container-tabla">
+            <table class="tabla-list">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>DESCRIPCION</th>
+                        <th>ESTADO</th>
+                        <th>ACCION</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                    <tr>
+                        <th id="tableId"></th>
+                        <th id="tabledescripcion"></th>
+                        <th id="tableEstado"></th>
+                        <th id="tableAccion"></th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+       
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

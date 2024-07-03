@@ -1,0 +1,60 @@
+body{
+    margin: 10px;
+    background-color: rgb(240, 236, 236);
+    /* border: 2px solid black; */
+}
+.container{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    /* border-bottom: 1px solid black; */
+    text-align: center;
+}
+.parrafo-nv{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0%;
+    font-size: 20px;
+}
+.input-nt{
+    width: 400px;
+    height: 30px;
+    font-size: 14px;
+    border: 2px solid black;
+}
+.container-input{
+    display: flex;
+    justify-content: center;
+}
+.container-tabla{
+    display: flex;
+    justify-content: center;
+}
+table {
+    border-collapse: collapse; 
+    width: 100%;   
+    margin-bottom: 50px;
+    border: 2px solid;   
+    background-color: white;   
+  
+}
+td, th {
+    padding: 10px;             
+    border: 1px solid #757474;   
+    font-size: 18px;
+}
+.btn-agregar{
+    background-color: rgba(1, 29, 84, 0.842);
+    margin-left: 5px;
+    color: white;
+    width: 100px;
+    font-size: 16px;
+}
+.presumen{
+    font-size: 20px;
+    
+}
